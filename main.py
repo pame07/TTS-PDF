@@ -2,7 +2,7 @@ import pyttsx3 # Initialize the library
 import PyPDF2
 
 
-pdf_file = open('C:/Users/Seba/Downloads/test.pdf', 'rb')
+pdf_file = open('C:/Users/Seba/Downloads/Howls_of_Zelania_removed.pdf', 'rb')
 
 pdfReader = PyPDF2.PdfReader(pdf_file)
 
