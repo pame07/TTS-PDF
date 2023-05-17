@@ -6,7 +6,7 @@ pdf_file = open('C:/Users/Seba/Downloads/test.pdf', 'rb')
 
 pdfReader = PyPDF2.PdfReader(pdf_file)
 
-print("Pages Number:", len(pdfReader.pages))
+#print("Pages Number:", len(pdfReader.pages))
 
 file1=open(r"C:/Users/Seba/Downloads/convertedtext.txt","a")
 
